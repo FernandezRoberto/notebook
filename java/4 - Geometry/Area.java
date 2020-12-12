@@ -1,4 +1,6 @@
-Calcula el area de un polígono representado como un ArrayList de puntos. IMPORTANTE: Definir P[0] = P[n-1] para cerrar el polígono. El algorítmo utiliza el metodo de determinante de la matriz de puntos de la figura. IMPORTANTE: Debe definirse previamente la clase Point.
+Calcula el area de un polígono representado como un ArrayList de puntos. IMPORTANTE: Definir P[0] = P[n-1]
+para cerrar el polígono. El algorítmo utiliza el metodo de determinante de la matriz de puntos de la figura. 
+  IMPORTANTE: Debe definirse previamente la clase Point.
 
 public static double area(ArrayList<Point> P) {
   double result = 0.0;
